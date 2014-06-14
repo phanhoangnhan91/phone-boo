@@ -48,7 +48,7 @@ namespace PhoneApp1
             {
                 //Bind the results to the user interface.
                 ContactResultsData.DataContext = e.Results;
-                
+
             }
             catch (System.Exception)
             {

@@ -67,29 +67,17 @@
 
 
                                 <TextBlock x:Name="network" Text="aaa" Margin="10" Grid.Column="2"/>
-                                <!--<x:Code>
-                                    <![CDATA[
-if(number.Text=="123")
-                                    network.Text="Viettel";
-            
-            ]]>
-                                </x:Code>-->
-                                <!--<TextBox Name="_textBox" Text="{Binding Path= PhoneNumber}" Margin="5" Grid.Column="1"/>-->
+
                             </Grid>
-
-
                         </Border>
-                        <!--<TextBlock Grid.Column="0" 
- x:Name="ContactResults" Text="{Binding DisplayName  ,Mode=OneWay}" />
-                        <TextBlock Grid.Column="1" 
- x:Name="ContactResults2" Text="{Binding DisplayName  ,Mode=OneWay}" />-->
+
                     </DataTemplate>
                 </ListBox.ItemTemplate>
-                
-            </ListBox>
-            
 
-          
+            </ListBox>
+
+
+
 
 
 
